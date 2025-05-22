@@ -19,33 +19,6 @@ A **stable**, **modular**, and **easy-to-use** external GUI foundation built wit
 
 ---
 
-🛠 Usage
-Initialize and start your GUI using the base class.
-
-Customize and add your own windows or widgets inside the main loop.
-
-cpp
-Copy
-Edit
-#include "GuiBase.h"
-
-GuiBase gui;
-gui.Initialize();
-
-while (running) {
-    gui.BeginFrame();
-
-    ImGui::Begin("My Window");
-    ImGui::Text("Hello, External GUI Base!");
-    ImGui::End();
-
-    gui.Render();
-}
-🤝 Contributing
-Contributions, bug reports, and feature requests are welcome! Feel free to open issues or pull requests.
-
----
-
 ## 📦 Installation
 
 ```bash
