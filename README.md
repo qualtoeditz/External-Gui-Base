@@ -19,13 +19,6 @@ A **stable**, **modular**, and **easy-to-use** external GUI foundation built wit
 
 ---
 
-## 📦 Installation
-
-```bash
-git clone https://github.com/qualtoeditz/External-Gui-Base.git
-cd External-Gui-Base
-# Build with your preferred toolchain (Visual Studio, GCC, etc.)
-
 🛠 Usage
 Initialize and start your GUI using the base class.
 
@@ -51,3 +44,11 @@ while (running) {
 🤝 Contributing
 Contributions, bug reports, and feature requests are welcome! Feel free to open issues or pull requests.
 
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/qualtoeditz/External-Gui-Base.git
+cd External-Gui-Base
+# Build with your preferred toolchain (Visual Studio, GCC, etc.)
